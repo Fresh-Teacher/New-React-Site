@@ -14,6 +14,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Footer from "./Footer/Footer";
 
+
 const ProductShop = () => {
   const [typing, setTyping] = useState("");
   const [productData, setProductData] = useState([]);
