@@ -65,7 +65,7 @@ const ProductShop = () => {
             <Row>
               <Col>
                 <div id="logo-pro" className="logo-pro" />
-                <b className="logo-title">Fresh Teacher's Library</b>
+                <b className="logo-title">E-Library</b>
               </Col>
             </Row>
           </Navbar.Brand>
