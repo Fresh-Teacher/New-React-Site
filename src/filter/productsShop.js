@@ -89,7 +89,7 @@ const ProductShop = () => {
       </Navbar>
 
       {productData.length === 0 && (
-        <p className="not-found">No results found!😔 Try searching using a different keyword...</p>
+        <p className="not-found"> Try searching for files using an alternative keyword 🔍</p>
       )}
 
       <Row className="products-area">
@@ -121,7 +121,7 @@ const ProductShop = () => {
                   type="submit"
                   variant="outline-warning"
                 >
-                  Free Preview{" "}
+                  Free Download{" "}
                   <FontAwesomeIcon className="faShopware" icon={faShopware} />
                 </Button>
               </Card.Body>
