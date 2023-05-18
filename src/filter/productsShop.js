@@ -90,13 +90,6 @@ const ProductShop = () => {
                 />
               </InputGroup.Text>
             </InputGroup>
-            <Nav.Link className="basket-media" href="#action1">
-              <b>SEPETİM</b>
-            </Nav.Link>
-            <div className="basket">
-              <div className="shop-pro" />
-              <p className="basket-title">3</p>
-            </div>
           </Navbar.Collapse>
         </Container>
       </Navbar>
