@@ -10,7 +10,7 @@ const Footer = ({ name, link }) => {
         <a className="footer-link" target="_blank" href={link}>
           <p className="pull-right">
             <b>
-              Copyright &copy; 2019 - {year} Design By {name}{" "}
+              Copyright &copy; 2019 - {year} Designed By {name}{" "}
             </b>
           </p>
         </a>

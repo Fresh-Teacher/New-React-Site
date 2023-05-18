@@ -1,34 +1,33 @@
 [
-   
-
-{
-    "id":3,
-    "title":"Awesome Granite Mouse",
-    "price":550,
-    "description":"The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes,that started with the 1984 ABC800J",
-    "category":
-{
-    "id":2,
-    "name":"Electronics",
-    "image":"https://api.lorem.space/image/watch?w=640&h=480&r=4291"},
-    "images":["https://api.lorem.space/image/watch?w=640&h=480&r=49",
-    "https://api.lorem.space/image/watch?w=640&h=480&r=5289",
-    "https://api.lorem.space/image/watch?w=640&h=480&r=7819"]},
-
-{
-    "id":4,
-    "title":"Practical Concrete Tuna",
-    "price":578,
-    "description":"Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day ",
-    "category":
-{
-    "id":3,
-    "name":"Furniture",
-    "image":"https://image.tmdb.org/t/p/original/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg"},
-    "images":["https://api.lorem.space/image/furniture?w=640&h=480&r=7262",
-    "https://api.lorem.space/image/furniture?w=640&h=480&r=7160",
-    "https://api.lorem.space/image/furniture?w=640&h=480&r=6598"]},
-
+        {
+          "id": 3,
+          "title": "Awesome Granite Mouse",
+          "price": 550,
+          "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+          "category": {
+            "id": 2,
+            "name": "Electronics"
+          },
+          "link": "https://www.google.com"
+        },
+        {
+          "id": 4,
+          "title": "Practical Concrete Tuna",
+          "price": 578,
+          "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day",
+          "category": {
+            "id": 3,
+            "name": "Furniture",
+            "image": "https://image.tmdb.org/t/p/original/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg"
+          },
+          "images": [
+            "https://api.lorem.space/image/furniture?w=640&h=480&r=7262",
+            "https://api.lorem.space/image/furniture?w=640&h=480&r=7160",
+            "https://api.lorem.space/image/furniture?w=640&h=480&r=6598"
+          ],
+          "link": "https://www.bing.com"
+        },
+      
 {
     "id":5,
     "title":"Intelligent Granite Shoes",
