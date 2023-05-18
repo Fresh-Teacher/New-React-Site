@@ -94,9 +94,19 @@ const ProductShop = () => {
       <Row className="products-area">
         {productData.map((item) => (
           <Col xs={4} className="pro-card" key={item.title}>
-            <Card style={{ width: "310px" }} className=" product">
+            <Card style={{ width: "310px" }} className="product">
+              <div className="image-text">
+                <br />
+                <p id="price" className="text-price">
+                  <b>{item.price}/=</b>
+                </p>
+              </div>
               <Card.Body>
-                <Card.Title id="title" value="{item.title}" className="text">
+                <Card.Title
+                  id="title"
+                  value={item.title}
+                  className="text"
+                >
                   {item.title}
                 </Card.Title>
                 <Card.Text id="description" className="text-description">
@@ -110,7 +120,7 @@ const ProductShop = () => {
                   type="submit"
                   variant="outline-warning"
                 >
-                  Search File{" "}
+                  Free Preview{" "}
                   <FontAwesomeIcon className="faShopware" icon={faShopware} />
                 </Button>
               </Card.Body>
