@@ -1,0 +1,12 @@
+.footer {
+  color: black;
+  font-size: 15px !important;
+  margin-top: -40px !important;
+}
+.footer-link {
+  color: black;
+  text-decoration: none;
+}
+.footer-link:hover {
+  color: black;
+}
