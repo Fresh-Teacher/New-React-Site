@@ -88,7 +88,7 @@ const ProductShop = () => {
       </Navbar>
 
       {productData.length === 0 && (
-        <p className="not-found">No results found!😔</p>
+        <p className="not-found">No results found!😔 Try searching using a different keyword...</p>
       )}
 
       <Row className="products-area">
